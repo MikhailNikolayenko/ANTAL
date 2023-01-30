@@ -75,7 +75,7 @@ with header:
 with input:
     st.subheader("Данные для ввода")
     commit_url = st.text_input(
-        "Commit URL",
+        "Укажите URL-ссылку на модель (Speckle)",
         "https://speckle.xyz/streams/8f1af9919b/commits/738bc09c6d",
     )
 
